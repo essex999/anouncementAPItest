@@ -1,0 +1,16 @@
+.MuiPagination-ul li button {
+  color: white;
+  background-color: #ca58bf;
+}
+
+.MuiPagination-root div {
+  color: white;
+}
+
+.MuiPagination-root .Mui-selected {
+  background-color: #7e3b77 !important;
+}
+
+.MuiPagination-ul li button:hover {
+  background-color: #7e3b77 !important;
+}

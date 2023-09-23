@@ -1,0 +1,53 @@
+.main {
+  background-color: #2b0347;
+  height: 550px;
+  width: 1100pxpx;
+  margin-left: calc(50% - 550px);
+  margin-right: calc(50% - 550px);
+  margin-top: 80px;
+  overflow: auto;
+}
+.content {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.content {
+  margin-left: 240px;
+  margin-right: 240px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.burgerContent {
+  display: flex;
+  position: absolute;
+  width: 240px;
+  flex-direction: column;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuIcon {
+  margin: 5px;
+  width: 34px !important;
+  height: 34px !important;
+  cursor: pointer;
+  &:hover {
+    color: #610440;
+  }
+}
+
+.userDetails {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  gap: 25px;
+}

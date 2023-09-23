@@ -1,0 +1,39 @@
+.main {
+  background-color: #2b0347;
+  height: 550px;
+  width: 1100pxpx;
+  margin-left: calc(50% - 550px);
+  margin-right: calc(50% - 550px);
+  margin-top: 80px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+.menuIcon {
+  margin: 5px;
+  width: 34px !important;
+  height: 34px !important;
+  cursor: pointer;
+  &:hover {
+    color: #610440;
+  }
+}
+
+.postsContent {
+  margin-right: 240px;
+  margin-left: 240px;
+}
+
+.burgerContent {
+  display: flex;
+  position: absolute;
+  width: 240px;
+  flex-direction: column;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

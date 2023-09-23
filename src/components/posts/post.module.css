@@ -1,0 +1,18 @@
+.post {
+  width: auto;
+  height: auto;
+  background-color: #610440;
+  margin: 15px;
+
+  padding: 10px;
+}
+.comment {
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.baseInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
